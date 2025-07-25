@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/napp",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Napp\\": "app/",
+            "Modules\\Napp\\Database\\Factories\\": "database/factories/",
+            "Modules\\Napp\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Napp\\Tests\\": "tests/"
+        }
+    }
+}

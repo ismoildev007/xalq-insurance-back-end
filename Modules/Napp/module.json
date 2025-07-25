@@ -1,0 +1,11 @@
+{
+    "name": "Napp",
+    "alias": "napp",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Napp\\Providers\\NappServiceProvider"
+    ],
+    "files": []
+}
